@@ -5,7 +5,7 @@
 // the desired result. To check your work, run this
 // file in your Terminal.
 
-foods = {
+var foods = {
   apples: 23, 
   grapes: 507, 
   eggs: 48
@@ -15,17 +15,23 @@ foods = {
 // you created above:
 // YOUR CODE HERE
 
+console.log(Object.keys(foods))
+
+
 // Write code that prints all of the 'values' of the foods variable 
 // you created above:
 // YOUR CODE HERE
+console.log(Object.values(foods))
 
 // Write code that prints the value of the second food of the foods variable 
 // you created above:
 // YOUR CODE HERE
+console.log(Object.key[1])
 
 // Write code that adds a food to the foods object. 
 // Then, print the updated object:
 // YOUR CODE HERE
+console.log(Object.create(foods))
 
 
 #-------------------
@@ -46,10 +52,20 @@ foods = {
 // you created above:
 // YOUR CODE HERE
 
+var email = {
+  sender: "Isaiah",
+  emailAdress: "Sai.handsome@edu",
+  subject: "New bed time"
+  }
+  
+  console.log(Object.keys(email))
+  
+
+
 // Write code that logs all of the 'values' of the email object 
 // you created above:
 // YOUR CODE HERE
-
+console.log(Object.values(email))
 
 #-------------------
 // Part 3: Many Emails - CHALLENGE!
@@ -69,7 +85,7 @@ posts = ["image at beach", "holiday party", "adorable puppy", "video of cute bab
 // that relate to each individual Instagram post:
 
 
-posts = [
+posts = 
   {
     imageSrc: "./images/beach.png",
     caption: "At the beach with my besties",
@@ -84,7 +100,7 @@ posts = [
     number_likes: 13,
     comments: []
   }
-];
+
 
 console.log(posts);
 console.log(posts[0]);
@@ -99,3 +115,19 @@ console.log(posts[0]);
 // YOU DO: Create an array of at least 3 EMAIL Objects, using the same 
 // key-value pairs you used in your email Object above.
 // Then, print the email Array to the Terminal.
+
+var email = {
+  sender: "Isaiah",
+  emailAdress: "Sai.handsome@edu",
+  subject: "New bed time"
+  }
+  
+  console.log(Object.keys(email))
+
+  content = ["Calander", "motivationalMessage", "alarmTime"]
+
+  content = {
+    iPhoneapp: "Sleepy Time",
+    quoteOfTheNight: "More Sleep, More Success!",
+    clock: "9:00pm"
+  }
